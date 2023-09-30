@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cat Breeds</title>
+  <link rel="stylesheet" href="./scss/styles.scss" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="bg-nav">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="/">HomeWork JS</a>
+            <div class="nav" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="./videoplayer.html">VideoPlayer</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./catbreeds.html">CatBreeds</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      </nav>
+
+    </header>
+    <main class="main my-2">
+      <div class="container my-2">
+        <div class="breed-wrapper">
+          <div class="select-wrapper">
+            <select class="breed-select form-select form-select-lg " aria-label="Large select example">
+              <option selected>Open this select menu</option>
+            </select>
+          </div>
+          <div class="info-wrapper">
+            <p class="loader hide">Loading data, please wait...</p>
+            <p class="error hide">Oops! Something went wrong! Try reloading the page!</p>
+            <div class="cat-info">
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="bg-footer ">
+      <div class="container">footer</div>
+    </footer>
+  </div>
+
+  <script type="module" src="./js/catBreeds.js"></script>
+</body>
+
+</html>

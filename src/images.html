@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Images</title>
+  <link rel="stylesheet" href="./scss/styles.scss" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="bg-nav">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="/">HomeWork JS</a>
+            <div class="nav" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="./videoplayer.html">VideoPlayer</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./catbreeds.html">CatBreeds</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main class="main my-2">
+      <div class="container my-2">
+        <button type="button" class="mb-4 btn btn-outline-secondary btn-back">Back</button>
+
+        <div class="container images-container">
+          <form class="form style-form" id="search-form">
+            <div class="input-group input-wrapp input-group-sm mb-3">
+              <span class="input-group-text" id="inputGroup-sizing-sm">Search images</span>
+              <input type="text" name="searchQuery" autocomplete="off" class="form-control"
+                aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" required>
+            </div>
+            <button type="submit" class="btn btn-success">Search</button>
+
+          </form>
+          <div class="gallery">
+
+          </div>
+          <button type="submit" class="load-more is-hiden btn btn-success">Load more</button>
+
+        </div>
+      </div>
+    </main>
+    <footer class="bg-footer ">
+      <div class="container">footer</div>
+    </footer>
+  </div>
+
+
+  <script type="module" src="./js/images.js"></script>
+</body>
+
+</html>

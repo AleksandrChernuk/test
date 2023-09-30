@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timer</title>
+  <link rel="stylesheet" href="./scss/styles.scss" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="bg-nav">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="/">HomeWork JS</a>
+            <div class="nav" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="./videoplayer.html">VideoPlayer</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./catbreeds.html">CatBreeds</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main class="main my-2">
+      <div class="container my-2">
+        <button type="button" class="mb-4 btn btn-outline-secondary btn-back">Back</button>
+        <div class="container my-2 timer-wrapp">
+
+          <div class="mb-3 timer-input">
+            <input type="text" id="datetime-picker" class="form-control">
+            <button type="button" class="btn btn-success" data-start>Start</button>
+          </div>
+
+
+
+          <div class="timer">
+            <div class="field">
+              <span class="value" data-days>00</span>
+              <span class="label">Days</span>
+            </div>
+            <div class="field">
+              <span class="value" data-hours>00</span>
+              <span class="label">Hours</span>
+            </div>
+            <div class="field">
+              <span class="value" data-minutes>00</span>
+              <span class="label">Minutes</span>
+            </div>
+            <div class="field">
+              <span class="value" data-seconds>00</span>
+              <span class="label">Seconds</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </main>
+    <footer class="bg-footer ">
+      <div class="container">footer</div>
+    </footer>
+  </div>
+
+  <script type="module" src="./js/timer.js"></script>
+</body>
+
+</html>

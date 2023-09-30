@@ -1,0 +1,22 @@
+.breed-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1rem;
+  grid-template-rows: auto 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.cat-info {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .cat-info {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+}

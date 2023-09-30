@@ -1,0 +1,68 @@
+@import "bootstrap/scss/bootstrap";
+@import "./catBreeds.scss";
+@import "./feedback.scss";
+@import "./videoPlayer.scss";
+@import "./color-switcher.scss";
+@import "./timer.scss";
+@import "./promises.scss";
+@import "./images.scss";
+
+body,
+html {
+  margin: 0;
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+
+textarea {
+  resize: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+span {
+  font-weight: 900;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.main {
+  flex: 1 0 auto;
+}
+
+.bg-nav {
+  background-color: #00b368;
+}
+
+.bg-footer {
+  background-color: #00b368;
+  padding: 1rem 0;
+}
+
+.hide {
+  display: none;
+}
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Player </title>
+  <link rel="stylesheet" href="./scss/styles.scss" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="bg-nav">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="/">HomeWork JS</a>
+            <div class="nav" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="./videoplayer.html">VideoPlayer</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./catbreeds.html">CatBreeds</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container my-2">
+        <iframe id="vimeo-player" src="https://player.vimeo.com/video/236203659" width="100%" height="360"
+          frameborder="0" allowfullscreen allow="autoplay; encrypted-media"></iframe>
+      </div>
+    </main>
+    <footer class="bg-footer ">
+      <div class="container">footer</div>
+    </footer>
+  </div>
+
+  <script type="module" src="./js/videoPlayer.js"></script>
+</body>
+
+</html>
